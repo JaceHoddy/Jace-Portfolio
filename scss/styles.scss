@@ -1,0 +1,86 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $pageBackground;
+    font-family: 'Rubik';
+}
+
+header {
+    border-bottom: 1px solid $background-2;
+    padding: 20px;
+}
+
+$pageMargin: 80px;
+
+main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: $pageMargin auto;
+    margin-top: $pageMargin;
+    margin-bottom: $pageMargin;
+
+    #home {
+        width: 100vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80rem;
+        border-radius: 16px;
+        padding: 80px 0;
+        border: 1px solid $background-2;
+        gap: 24px;
+
+        .text {
+            text-align: center;
+            background-color: $background-1;
+            border-radius: 16px;
+            padding: 20px;
+
+            h1 {
+                font-size: 56px;
+                padding: 16px;
+            }
+
+            h2 {
+                max-width: 64rem;
+            }
+        }
+
+        .image {
+            img {
+                background-color: $background-1;
+                padding: 8px;
+                border-radius: 50%;
+                outline: 2px solid $background-3;
+            }
+        }
+
+        button {
+            background-color: $primary;
+            padding: 20px;
+            border-radius: 24px;
+            font-size: 32px;
+            color: white;
+            font-weight: 400;
+            border: none;
+            width: 100%;
+            max-width: 64rem;
+            img {
+                color: white;
+                fill: white;
+            }
+
+            &:hover {
+                background-color: lighten($primary, $amount: 4%);
+                cursor: pointer;
+            }
+        }
+    }
+}
