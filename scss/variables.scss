@@ -1,6 +1,17 @@
-$pageBackground: #F5F5F7;
 $primary: #0071E3;
+
+$pageBackground: #F5F5F7;
 $background-1: #ffffff;
 $background-2: #c3c3c3;
 $background-3: #79767C;
-$textColor: #0A0A0A
+$textColor: #0A0A0A;
+
+$pageBackground-dark: #131313;
+$background-dark-1: #383838;
+$background-dark-2: #222222;
+$background-dark-3: #0f0f0f;
+$textColor-dark: #ffffff;
+
+:root {
+    color-scheme: light dark;
+}
