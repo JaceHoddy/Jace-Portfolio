@@ -15,7 +15,7 @@ body {
         color: $textColor;
         box-sizing: border-box;
     }
-    
+
 
     header {
         border-bottom: 1px solid $background-2;
@@ -134,7 +134,8 @@ body {
                     padding: 20px 40px;
                     width: 100%;
 
-                    a, button {
+                    a,
+                    button {
                         border: none;
                         font-size: 20px;
                         width: 100%;
@@ -159,6 +160,7 @@ body {
                 #A9 img {
                     padding: 600px;
                 }
+
                 img {
                     max-height: 300px;
                     max-width: 500px;
@@ -169,10 +171,62 @@ body {
                 }
             }
         }
-    }
+
+        #contact {
+            border-radius: 16px;
+            padding: 80px 0;
+            border: 1px solid $background-2;
+            background-color: $primary;
+            gap: 24px;
+            h1 {
+                font-size: 56px;
+            }
+
+            h2 {
+                max-width: 64rem;
+            }
+
+            .contact-info {
+                display: flex;
+                gap: 20px;
+                a {
+                    text-decoration: none;
+                    color: $textColor;
+                    font-weight: 500;
+                    font-size: 24px;
+                    padding: 4px 16px;
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: auto;
+                    width: fit-content;
+                    background-color: $background-1;
+                    border-radius: 8px;
+                    border: 1px solid $background-2;
     
+                    &:hover {
+                        background-color: darken($background-1, $amount: 8%);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
+
+    #footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 20px;
+        gap: 20px;
+        border-top: 1px solid $background-2;
+    }
+
     $dialogWidth: 800px;
     $dialogHeight: fit-content;
+
     dialog {
         width: $dialogWidth;
         height: $dialogHeight;
@@ -184,18 +238,21 @@ body {
         border-radius: 16px;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
         transition: all 0.2s ease-in-out;
+
         .top {
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 16px;
             border-bottom: 1px solid $background-2;
+
             svg {
                 &:hover {
                     cursor: pointer;
                 }
             }
         }
+
         #images {
             width: 100%;
             display: flex;
@@ -207,6 +264,7 @@ body {
             position: relative;
             scrollbar-width: none;
             -ms-overflow-style: none;
+
             img {
                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
                 max-width: 100%;
@@ -216,6 +274,7 @@ body {
                 border-radius: 16px;
             }
         }
+
         .scroll {
             fill: $textColor;
             border-radius: 50%;
@@ -230,35 +289,40 @@ body {
             align-items: center;
             opacity: 0;
             transition: all 0.2s ease-in-out;
-        
+
             &.right {
                 right: 8px;
+
                 svg {
                     rotate: -90deg;
                 }
             }
-        
+
             &.left {
                 left: 8px;
+
                 svg {
                     rotate: 90deg;
                 }
             }
-        
+
             &.show {
                 opacity: 1;
             }
-        
+
             &:hover {
                 cursor: pointer;
                 background-color: lighten($background-1, $amount: 4%);
             }
         }
+
         #body {
             padding: 8px 16px;
+
             p {
                 margin: 8px 0;
             }
+
             a {
                 text-decoration: none;
                 color: $primary;
@@ -273,16 +337,19 @@ body {
                 background-color: $background-1;
                 border-radius: 8px;
                 border: 1px solid $background-2;
+
                 &:hover {
                     background-color: darken($background-1, $amount: 8%);
                     cursor: pointer;
                 }
+
                 img {
                     height: 20px;
-                }   
+                }
             }
         }
     }
+
     ::backdrop {
         background-color: rgba($textColor, 0.6);
     }
@@ -330,11 +397,39 @@ body.theme-dark {
         }
     }
 
+    #contact {
+        border: 1px solid $background-dark-2 !important;
+    }
+
+    #footer {
+        border-top: 1px solid $background-dark-2 !important;
+    }
+
     dialog {
         background-color: $pageBackground-dark !important;
         border-color: $background-dark-2 !important;
+
         .top {
             border-color: $background-dark-2 !important;
+        }
+
+        .scroll {
+            background-color: $background-dark-1 !important;
+
+            svg path {
+                fill: $textColor-dark !important;
+            }
+        }
+
+        #body {
+            a {
+                background-color: $background-dark-1 !important;
+                border-color: $background-dark-2 !important;
+
+                &:hover {
+                    background-color: lighten($background-dark-1, $amount: 8%) !important;
+                }
+            }
         }
     }
 }

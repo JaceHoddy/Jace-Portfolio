@@ -60,7 +60,10 @@ function generateCards(cards) {
         const img = document.createElement('img');
         img.width = 720;
         img.height = 545;
-        img.src = card.image.find(src => !!src) || '';
+        img.src = card.image[0] || '';
+        if (index === 0 || index === 3) {
+            img.src = card.image[card.image.length - 1] || '';
+        }
         img.alt = card.title;
 
         cardDiv.appendChild(textDiv);

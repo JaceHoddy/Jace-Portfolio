@@ -116,7 +116,8 @@ body main #work .card .text {
   padding: 20px 40px;
   width: 100%;
 }
-body main #work .card .text a, body main #work .card .text button {
+body main #work .card .text a,
+body main #work .card .text button {
   border: none;
   font-size: 20px;
   width: 100%;
@@ -131,7 +132,8 @@ body main #work .card .text a, body main #work .card .text button {
   text-decoration: none;
   margin-top: auto;
 }
-body main #work .card .text a:hover, body main #work .card .text button:hover {
+body main #work .card .text a:hover,
+body main #work .card .text button:hover {
   background-color: #007bf7;
   cursor: pointer;
 }
@@ -146,6 +148,52 @@ body main #work .card img {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 4px;
+}
+body main #contact {
+  border-radius: 16px;
+  padding: 80px 0;
+  border: 1px solid #c3c3c3;
+  background-color: #0071E3;
+  gap: 24px;
+}
+body main #contact h1 {
+  font-size: 56px;
+}
+body main #contact h2 {
+  max-width: 64rem;
+}
+body main #contact .contact-info {
+  display: flex;
+  gap: 20px;
+}
+body main #contact .contact-info a {
+  text-decoration: none;
+  color: #0A0A0A;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 4px 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #c3c3c3;
+}
+body main #contact .contact-info a:hover {
+  background-color: #ebebeb;
+  cursor: pointer;
+}
+body #footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+  border-top: 1px solid #c3c3c3;
 }
 body dialog {
   width: 800px;
@@ -288,10 +336,29 @@ body.theme-dark #home .image img {
   background-color: #383838 !important;
   outline: 2px solid #0f0f0f !important;
 }
+body.theme-dark #contact {
+  border: 1px solid #222222 !important;
+}
+body.theme-dark #footer {
+  border-top: 1px solid #222222 !important;
+}
 body.theme-dark dialog {
   background-color: #131313 !important;
   border-color: #222222 !important;
 }
 body.theme-dark dialog .top {
   border-color: #222222 !important;
+}
+body.theme-dark dialog .scroll {
+  background-color: #383838 !important;
+}
+body.theme-dark dialog .scroll svg path {
+  fill: #ffffff !important;
+}
+body.theme-dark dialog #body a {
+  background-color: #383838 !important;
+  border-color: #222222 !important;
+}
+body.theme-dark dialog #body a:hover {
+  background-color: #4c4c4c !important;
 }
