@@ -145,8 +145,7 @@ body main #work .card img {
   max-width: 500px;
   margin: 20px;
   aspect-ratio: 5/3;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 4px;
 }
 body main #contact {
@@ -177,7 +176,6 @@ body main #contact .contact-info a {
   align-items: center;
   justify-content: center;
   margin-top: auto;
-  width: -moz-fit-content;
   width: fit-content;
   background-color: #ffffff;
   border-radius: 8px;
@@ -197,7 +195,6 @@ body #footer {
 }
 body dialog {
   width: 800px;
-  height: -moz-fit-content;
   height: fit-content;
   top: 50%;
   left: 50%;
@@ -235,8 +232,7 @@ body dialog #images img {
   max-width: 100%;
   height: 280px;
   aspect-ratio: 5/3.5;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 16px;
 }
 body dialog .scroll {
@@ -289,7 +285,6 @@ body dialog #body a {
   align-items: center;
   justify-content: center;
   margin: 16px 0;
-  width: -moz-fit-content;
   width: fit-content;
   background-color: #ffffff;
   border-radius: 8px;
