@@ -1,31 +1,31 @@
 const cards = [
     {
         title: "A9 Structural Design",
-        description: "A9 STRUCTURAL DESIGN LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES.",
+        description: "This is a redesign of the UVU CET website that I worked on alongside a team. For this project, we met with the website's stakeholder to understand her goals, the problems with the current site, and other key questions. After gathering her feedback, we conducted extensive research—surveying 125 people about their thoughts on the existing design, performing eye-tracking tests, and holding interviews. We also created vision boards, sketches, wireframes, surface comps, and a working prototype. Finally, we presented all of our findings and the improved website redesign.",
         image: ["./images/20250320_123332 1.png", "./images/Content Hub.png", "./images/Departments - Jace Hoddy.png"],
         link: "https://www.figma.com/design/CRJB4tA35YZifyRxVrqfll/Final-Submission-%7C-Final-Document?m=auto&t=SnuaNzBaWavVSb9o-6",
     },
     {
         title: "Media Formats",
-        description: "MEDIA FORMATS LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES.",
+        description: "This is my technology assessment, which I created on my own. My goal for this project was to learn more about media formats—including images, audio, and streaming—so I could better understand when to use each type. I also took the opportunity to improve my skills in Figma, Photoshop, and Illustrator.",
         image: ["./images/Tabloid - 1.png", "./images/Frame 11.png", "./images/Frame 18.png"],
         link: "https://www.figma.com/design/CRJB4tA35YZifyRxVrqfll/Final-Submission-%7C-Final-Document?m=auto&t=SnuaNzBaWavVSb9o-6",
     },
     {
         title: "FEiT Mobile App Redesign",
-        description: "FEiT LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES.",
+        description: "This was a really fun project I got to work on! My task was to improve the navigation and aesthetics of the FEiT Electric mobile app. I was given a lot of creative freedom, which made it even more enjoyable. Plus, it helped me sharpen my Figma skills.",
         image: ["./images/Screenshot 2025-05-03 000845.png"],
         link: "https://www.figma.com/design/fpY1YLpUwJrBxuFWkvmjgf/Untitled?node-id=0-1&p=f&t=Irz0Rk2MJNFx0gmL-0",
     },
     {
         title: "EDAS website redesign",
-        description: "EDAS LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES.",
+        description: "I created this redesign of the EDAS website, developing sketches, wireframes, and surface comps for small, medium, and large screens. My main goals were to: 1) make it easier for users to find what they need across all devices, 2) improve universal usability, and 3) give the design a more fun, visually appealing look.",
         image: ["./images/image 7.png", "./images/Home.png", "./images/Log In.png"],
         link: "https://www.figma.com/design/OSVlS3jBZGssN7M8cAnLSz/EDAS-surface-comps-draft?m=auto&t=SPMCtORB7seXGsEI-6",
     },
     {
         title: "Wildlife Fund Redesign",
-        description: "WILDLIFE FUND LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIGENDI VOLUPTATES.",
+        description: "This is my redesign of the World Wildlife Fund website. I wanted to create an updated version of a charity site, and I chose this one for my project. For this redesign, I developed small, medium, and large screen versions, along with sketches, wireframes, surface comps, and a working prototype. My main focus was improving wayfinding and visual hierarchy to help users find information more easily and get what they needed faster.",
         image: ["./images/Desktop - 3.png", "./images/Desktop - 1.png"],
         link: "https://www.figma.com/design/agO2guqlybr1ngwgj94pLf/Non-profit-website-design?node-id=0-1&p=f&t=GvV183JkUYnY1njh-0",
     }
